@@ -43,15 +43,20 @@ npm start
 
 ### After load first animation.
 
-![alt text](my-app/src/assets/video1696126639online-video-cutter.com-ezgif.com-video-to-gif-converter.gif)
+![alt text](my-app/src/assets/video1337745856online-video-cutter.com-ezgif.com-video-to-gif-converter.gif)
 
 ### Second Animation
 
-![alt text](my-app/src/assets/video1696126639online-video-cutter.com1-ezgif.com-video-to-gif-converter.gif)
+![alt text](my-app/src/assets/video1337745856online-video-cutter.com1-ezgif.com-video-to-gif-converter.gif)
 
 ### Third animation
 
-![alt text](my-app/src/assets/video1347148107online-video-cutter.com-ezgif.com-video-to-gif-converter.gif)
+![alt text](my-app/src/assets/video1337745856online-video-cutter.com2-ezgif.com-video-to-gif-converter.gif)
+
+# Mobile View
+
+![alt text](my-app/src/assets/video1337745856online-video-cutter.com3-ezgif.com-video-to-gif-converter.gif)
+![alt text](my-app/src/assets/video1337745856online-video-cutter.com4-ezgif.com-video-to-gif-converter.gif)
 
 ## Technologies Used
 

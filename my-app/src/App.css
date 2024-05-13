@@ -1,8 +1,11 @@
 /* src/styles/App.css */
+* {
+	box-sizing: border-box;
+}
 .container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 	gap: 3rem;
 	align-items: center;
 	background: rgb(0, 3, 36);
@@ -12,7 +15,8 @@
 		rgba(9, 58, 121, 1) 43%,
 		rgba(0, 125, 255, 1) 78%
 	);
-	height: 100vh;
+	min-height: 100vh;
+	padding-bottom: 5rem;
 }
 
 /* Items container components fadUp Styles:-- */
@@ -21,14 +25,16 @@
 	padding: 1rem 0rem;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 2rem;
 	width: 60%;
 	background: transparent;
 	border: none;
 	border-radius: 20px;
 	backdrop-filter: blur(25px) brightness(60%);
-	animation: fadeUp 1s;
+	animation: fadeUp 5s  alternate;
 }
+
 @keyframes fadeUp {
 	0% {
 		opacity: 0;
@@ -41,11 +47,26 @@
 }
 
 /* Item style:--*/
-.items > div {
+.items_container > div {
 	padding: 1rem 1rem;
 	font-weight: bolder;
-	color: wheat;
+	align-items: center;
 	font-family: "Times New Roman", Times, serif;
+	width: 30%;
+	margin: auto;
+	background: rgb(238, 174, 202);
+	background: radial-gradient(
+		circle,
+		rgb(204, 150, 174) 0%,
+		rgb(126, 161, 201) 100%
+	);
+	border-radius: 0.5rem;
+}
+.items_container > div > h2 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.5rem;
 }
 
 /*Button rotation styles:--*/
@@ -73,6 +94,21 @@ button {
 @media screen and (max-width: 814px) {
 	.items {
 		width: 80%;
+	}
+}
+@media screen and (max-width: 624px) {
+	.items_container > div > h2 > span {
+		display: none;
+	}
+	.items_container > div > h2 {
+		text-align: center;
+		justify-content: center;
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 532px) {
+	.container {
+		min-height: 100vh;
 	}
 }
 @media screen and (max-width: 470px) {
